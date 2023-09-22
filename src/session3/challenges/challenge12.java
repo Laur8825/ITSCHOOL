@@ -12,11 +12,11 @@ public class challenge12 {
         int number = scanner.nextInt();
 
         // Increment the number by 1 and display the result
-        int incrementedNumber = number + 1;
+        int incrementedNumber = ++number;
         System.out.println("After incrementing by 1: " + incrementedNumber);
 
         // Decrement the number by 1 and display the result
-        int decrementedNumber = number - 1;
+        int decrementedNumber = --number;
         System.out.println("After decrementing by 1: " + decrementedNumber);
 
         scanner.close();
